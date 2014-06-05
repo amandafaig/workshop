@@ -9,7 +9,7 @@ So far we've agreed on:
 
 - Having a seperate workshop for each dept.
 - Having the workshops in early Fall quarter (before people get bogged down).
-- Having a theory aspect and a practical aspect
+- Having a theory aspect and a practical aspect.
 - Having the following practical exercises:
 
 1. Make a repo from scratch, and adding your very first file to it.
