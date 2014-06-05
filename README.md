@@ -7,4 +7,4 @@ A place for us to put our plans, our presentation slides, our practice files, et
 
 INDEX OF CONTENTS:
 
--Outline.text : A working document for us to track what we've agreed on, what we need to agree on, and what we need to do.
+- Outline.rft : A working document for us to track what we've agreed on, what we need to agree on, and what we need to do.
