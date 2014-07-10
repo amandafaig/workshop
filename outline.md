@@ -9,14 +9,48 @@ So far we've agreed on:
 ### Practical exercises 
 
 1. Make a repo from scratch, and adding your very first file to it.
+
+```
+mkdir myrepo
+cd myrepo
+git init myrepo
+echo "My first repo" >> README.md
+git commit -am "Initial commit"
+```
 2. Clone an existing repo, edit a file, and merge it properly (and make this a two person exercise.)
 3. Go back to a previous commit and just play around, but exit without committing.
 4. Go back to a previous commit and actually save a second copy. (figure out how to do without branching OR decide this is how we wnat to introduce branching)
 5. Branching?
 
+#### Use cases: 
+
+Using checkout (i.e. 3 above) or just `git show <hash> path/to/file`):
+
+A. See old version of file 
+`git show <hash> path/to/file` OR if you want to do more stuff
+`git checkout <hash> # now in detached head` 
+B. commits (tags?) for specific figures in a ms, or (more generally) specific parameter values for generating a fig
+
+Using checkout + saving something (or `git branch`):
+
+A. reviving an old idea w/o branch: 
+
+```
+git show <old-hash> path/to/file > new/name
+git add new/name
+git commit
+```
+
+B. reviving with branch
+``` 
+git checkout -b new-branch-for-old-idea
+git cherry-pick <old-hash> path/to/file
+```
+
+
 ### Overall philosophy 
 
-We seem to agree that we should stick with working from a single repo, where all members are "contributers" rather than teaching how to fork and use pull requests.
+We seem to agree that we should stick with working from a single repo, where all members are "contributors" rather than teaching how to fork and use pull requests.
 
 ### What we need to decide/figure out/agree on:
 
