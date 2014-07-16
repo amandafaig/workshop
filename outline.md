@@ -6,7 +6,7 @@ So far we've agreed on:
 - Having a set of  practical exercises
 - We want to teach workflow without branching, but maybe show scenarios where branching is really useful.
 
-### Practical exercises 
+### Practical exercises (for linux?)
 
 1. Make a repo from scratch, and adding your very first file to it.
 
