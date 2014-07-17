@@ -4,7 +4,7 @@ Exercise 1: Make a repository, and add your first file to it.
 
 There are several ways to make your first repository.  You can either make your repository locally (i.e. on your computer) and then "push" it to github's online repository, or you can make it online and copy it to your computer.  We'll try both, so you can decide which way you like best.
 
-# Starting locally
+## Starting locally
 
 First, let's try making one from a local folder.  First we need to make a local git repository.  This is essentially the folder you'll be using on your computer to save your work.  We'll call our folder "myrepo".  The "cd" commany tells our terminal to go in to the folder.  (The default is for terminal to be in "home").
 ```
@@ -15,7 +15,7 @@ It's standard practice to add a readme file to your repository upon creation.  O
 ```
 echo "My first repo" >> README.md
 ```
-Github uses the "[github flavored markdown](https://github.github.com/github-flavored-markdown/)" (similar to markdown) for text files, but you can open an .md file in any text editor.  [This](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) is a useful cheat sheet, if you want your text files to be fancy.  Otherwise, just type as if its a text file.
+Github uses the "[github flavored markdown](https://github.github.com/github-flavored-markdown/)" (similar to markdown) for text files, but you can open an .md file in any text editor.  [This](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) is a useful cheat sheet, if you want your text files to be fancy.  Otherwise, just type as if it's a text file.
 
 Now we should probably add a file to our folder, to give it some purpose.  We have several options as to how to do this.
 
@@ -45,7 +45,7 @@ Now we should probably add a file to our folder, to give it some purpose.  We ha
 
 When you're ready to save your changes and make your very first commit, go ahead and do so.  First you need to tell github what files you want to keep track of.  Using the command `git add -A .` will add absolutely everything that has changed since your last commit to your current commit (which is what we will do for our initial commit) whereas naming the file with `git add file.m` will add only the files specified.
 
-For your first commit, and in general, you'll want to use `git add -A .`.
+For your first commit, and in general, you'll want to use `git add -A .`, like so:
 
 ```
 git add -A .
@@ -65,11 +65,13 @@ git push origin master
 
 Done!
 
-# Starting on Github.com
-_I find this way a lot easier._
+## Starting on Github.com
+_Note: I find this way a lot easier._
 
-Open up github.com.  
-Click "+ New Repository".
+Navigate to github.com on your web browser.
+
+Click `+ New Repository`.
+
 Name your repository myrepo, and check "Initialize this repository with a README"
 
 You can go and edit your readme if you want, but you don't have to.  (It's a good idea to do it soon, however).
