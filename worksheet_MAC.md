@@ -30,7 +30,7 @@ Now we should probably add a file to our folder, to give it some purpose.  We ha
 
    The code below moves a file from my desktop called file.txt to my directory
    
-        mv ~/desktop/file.txt file.txt
+        mv ~/Desktop/file.txt file.txt
         
 3. We can create a brank spanking new file.
 
@@ -76,14 +76,14 @@ Name your repository myrepo, and check "Initialize this repository with a README
 
 You can go and edit your readme if you want, but you don't have to.  (It's a good idea to do it soon, however).
 
-Now open your terminal and what you're going to do is clone your remote repository (the one on github.com) into a local repository.
+Now open your terminal and what you're going to do is copy ("clone" in git parlance) your remote repository from github.com into a local repository:
 
 ```
 git clone https://github.com/username/myrepo.git
 ```
 In order to work in this repository, you want to change your directory in terminal
 ```
-cd ~/myrepo
+cd myrepo # your path may differ
 ```
 
 Now you want to add your first file. We've outlined the different ways above, so we'll jump right in here.
