@@ -23,27 +23,27 @@ Now we should probably add a file to our folder, to give it some purpose.  We ha
 
    To do this, you can quickly open your current folder by first stepping "out" of the folder using the cd command, and then opening it.
    
-        cd ~
+        cd ..
         open myrepo
        
 2. We can use the mv command to rename an existing file (and by doing so move it)
 
-   The code below moves a file from my desktop called file.m to my directory
+   The code below moves a file from my desktop called file.txt to my directory
    
-        mv ~/desktop/file.m file.m
+        mv ~/desktop/file.txt file.txt
         
 3. We can create a brank spanking new file.
 
    Of course, keep in mind that this file will be empty when you first make it.  Don't forget to include a file extension.
    
-        touch file.m
+        touch file.txt
 
    If you want to open your file, to edit it, feel free
    
-        open file.m
+        open file.txt
 
 
-When you're ready to save your changes and make your very first commit, go ahead and do so.  First you need to tell github what files you want to keep track of.  Using the command `git add -A .` will add absolutely everything that has changed since your last commit to your current commit (which is what we will do for our initial commit) whereas naming the file with `git add file.m` will add only the files specified.
+When you're ready to save your changes and make your very first commit, go ahead and do so.  First you need to tell github what files you want to keep track of.  Using the command `git add -A .` will add absolutely everything that has changed since your last commit to your current commit (which is what we will do for our initial commit) whereas naming the file with `git add [file]` will add only the files specified, e.g. `git add file.txt`
 
 For your first commit, and in general, you'll want to use `git add -A .`, like so:
 
@@ -89,10 +89,10 @@ cd ~/myrepo
 Now you want to add your first file. We've outlined the different ways above, so we'll jump right in here.
 
 ```
-touch file.m
+touch file.txt
 ```
 
-If you want to edit your file, go ahead and use `open file.m` and edit it.  *(Note: you'll need matlab if its a m-file..)*
+If you want to edit your file, go ahead and use `open file.txt` and edit it.
 
 Now let's commit those changes and share them with the world
 
