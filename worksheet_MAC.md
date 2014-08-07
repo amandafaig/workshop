@@ -1,6 +1,7 @@
 Here are some quick exercises that will help you get a feel for github.  For all of these exercises, you will want your terminal open (Applications --> Utilities --> Terminal).  These instructions are for MAC users.
 
 Exercise 1: Make a repository, and add your first file to it.
+===
 
 There are several ways to make your first repository.  You can either make your repository locally (i.e. on your computer) and then "push" it to github's online repository, or you can make it online and copy it to your computer.  We'll try both, so you can decide which way you like best.
 

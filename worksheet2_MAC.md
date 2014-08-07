@@ -1,4 +1,5 @@
 Exercise 3: Go back to a previous commit
+====
 
 Sometimes you want to see an old version of a file (that is, after all, the point of a version control system).  Doing this is relatively simple.
 
