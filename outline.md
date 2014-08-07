@@ -6,6 +6,9 @@ So far we've agreed on:
 - Having a set of  practical exercises
 - We want to teach workflow without branching, but maybe show scenarios where branching is really useful.
 
+## Date
+right now we're tenatively planning to do these the week of Oct 6
+
 ### Practical exercises
 
 1. Make a repo from scratch, and adding your very first file to it.
