@@ -63,7 +63,7 @@ git push origin master
 Done!
 
 ## Starting on Github.com
-_Note: I find this way a lot easier._
+_Note: This is also how you would copy an existing repository (be it your own or one a collaborator has invited you to) to your computer._
 
 Navigate to github.com on your web browser.
 
