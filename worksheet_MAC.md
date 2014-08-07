@@ -52,12 +52,12 @@ git add -A .
 git commit -m "Initial commit"
 ```
 
-Almost done.  Now we need to make the remote repository on github.  Open up github.com and create Of course, use your username where the code says "username".
+Almost done.  Now we need to make the remote repository on github.  Open up github.com and create a repo called myrepo. Then, you can connect your local repo to github like so (Of course, use your username where the code says "username"!):
 
 ```
 git remote add origin https://github.com/username/myrepo.git
 ```
-One last step; you need to push your changes to github.com, so that they're stored online for you and others to download.
+One last step: you need to push your changes to github.com, so that they're stored online for you and others to download.
 
 ```
 git push origin master
