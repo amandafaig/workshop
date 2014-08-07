@@ -43,10 +43,13 @@ Now we should probably add a file to our folder, to give it some purpose.  We ha
         open file.m
 
 
-When you're ready to save your changes and make your very first commit, go ahead and do so.  The "-am" means "commit _all_, here's the commit _message_"
+When you're ready to save your changes and make your very first commit, go ahead and do so.  First you need to tell github what files you want to keep track of.  Using the command `git add -A .` will add absolutely everything that has changed since your last commit to your current commit (which is what we will do for our initial commit) whereas naming the file with `git add file.m` will add only the files specified.
+
+For your first commit, and in general, you'll want to use `git add -A .`, like so:
 
 ```
-git commit -am "Initial commit"
+git add -A .
+git commit -m "Initial commit"
 ```
 
 Almost done.  Now we need to make the remote repository on github.  Open up github.com and create Of course, use your username where the code says "username".
@@ -94,7 +97,8 @@ If you want to edit your file, go ahead and use `open file.m` and edit it.  *(No
 Now let's commit those changes and share them with the world
 
 ```
-git commit -am "Initial commit"
+git add -A
+git commit -m "Initial commit"
 git push
 ```
 *Notice how, since this is no longer our first push, we can go ahead and just write `git push` rather than `git push origin master`.  If you write `git push origin master` it'll work, but you're allowed the shortcut here on in.*
