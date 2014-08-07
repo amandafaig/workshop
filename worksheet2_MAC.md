@@ -38,6 +38,13 @@ If you want to save your new changes as a new branch (i.e. a second version of y
 
 ```
 git branch <branch name> <commit code>
+git push origin <branch name>
 ```
 If you want to discard those changes, all you have to do is ignore the message and move on.
 
+To checkout your side project (your new branch) you can do so at any time by typing
+
+```
+git checkout <branch name>
+```
+Your new branch is essentially a seperate (albeit similar) group of files, with the same history before you branched but different histories afterwards.  An alternate universe, perhaps?
