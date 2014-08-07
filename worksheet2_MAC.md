@@ -1,4 +1,4 @@
-Exercise 2: Go back to a previous commit
+Exercise 3: Go back to a previous commit
 
 Sometimes you want to see an old version of a file (that is, after all, the point of a version control system).  Doing this is relatively simple.
 
@@ -9,7 +9,7 @@ Now, choose the commit you want to go back to by typing:
 ```
 git checkout <commit code>
 ```
-Each commit has a unique alphanumeric code associated with it.  Typing in the first few characters (four or five) is enough for github to recognize which commit you want to go to.
+Each commit has a unique alphanumeric code associated with it.  Typing in the first few characters (four or five) is enough for github to recognize which commit you want to go to.  While doing this exercise (in githubworkshop.git) you would type `git checkout 880f6`.
 
 Now you've essentially gone back in time; open up your files, poke around if you want to, make changes where you want to.
 
