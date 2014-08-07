@@ -15,12 +15,15 @@ mkdir myrepo
 cd myrepo
 git init myrepo
 echo "My first repo" >> README.md
-git commit -am "Initial commit"
+git add README.md # make it so git tracks the file
+git commit -m "Initial commit"
 ```
-2. Clone an existing repo, edit a file, and merge it properly (and make this a two person exercise.)
-3. Go back to a previous commit and just play around, but exit without committing.
-4. Go back to a previous commit and actually save a second copy. (figure out how to do without branching OR decide this is how we wnat to introduce branching)
-5. Branching?
+1. Clone (github fork) an existing repo, edit a file, and merge it properly
+
+2. Go back to a previous commit and just play around, but exit without committing.
+3. Go back to a previous commit and actually save a second copy. (figure out how to do without branching OR decide this is how we wnat to introduce branching)
+
+4. Branching?
 
 #### Use cases: 
 
