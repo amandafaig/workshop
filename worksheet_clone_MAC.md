@@ -1,6 +1,7 @@
 Here are some quick exercises that will help you get a feel for github.  For all of these exercises, you will want your terminal open (Applications --> Utilities --> Terminal).  These instructions are for MAC users.
 
 Exercise 2: Cloning and forking a repository, add and editing files, viewing status and history
+======
 
 Our goal is to create a copy of an existing repo with its commit history.
 Generally, there are two ways to do this the general git way and the way within GitHub. 
@@ -73,6 +74,7 @@ Don't worry. We will use this repo in future exercises so this isn't wasted effo
 
 Navigate to [this repo](https://github.com/amandafaig/githubworkshop) on github.com on your web browser.
 Make sure you're logged in, and click the fork icon (shown below) in the upper right corner of the page.
+
 ![The fork icon](fork.png)
 
 After a minute, you will land on a page with your forked copy of the repo.
@@ -151,6 +153,7 @@ Finally, to commit all this we can use `git commit` with the `-a` flag to signal
 
 ```
 git commit -am "First edits to customize my forked repo"
+```
 
 After all that, to review history, we can use `git log`, which for me shows:
 
