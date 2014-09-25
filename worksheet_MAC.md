@@ -73,7 +73,7 @@ Navigate to github.com on your web browser.
 
 Click `+ New Repository`.
 
-Name your repository myrepo, and check "Initialize this repository with a README"
+Name your repository (for example, "myrepo"), and check "Initialize this repository with a README"
 
 You can go and edit your readme if you want, but you don't have to.  (It's a good idea to do it soon, however).
 
@@ -82,9 +82,9 @@ Now open your terminal and what you're going to do is copy ("clone" in git parla
 ```
 git clone https://github.com/username/myrepo.git
 ```
-In order to work in this repository, you want to change your directory in terminal
+Where "myrepo" is the name of the new repository you just created and "username" is your username.  In order to work in this repository, you need to go to it in your terminal:
 ```
-cd myrepo # your path may differ
+cd myrepo
 ```
 
 Now you want to add your first file. We've outlined the different ways above, so we'll jump right in here.
